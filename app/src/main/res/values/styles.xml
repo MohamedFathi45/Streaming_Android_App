@@ -1,0 +1,81 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryVarinat</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="onBackGround">
+        <item name="android:textColor">@color/onBackGround</item>
+    </style>
+
+    <style name="onSurface">
+        <item name="android:textColor">@color/onSurface </item>
+    </style>
+
+    <style name="backGround">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:background">@color/BackGround</item>
+    </style>
+
+    <style name="surface">
+        <item name="android:background">#1F1B24</item>
+    </style>
+
+    <style name="surfaceLevel1">
+        <item name="android:background">#423a51</item>
+    </style>
+
+    <style name="upperBarTitels" parent="onBackGround">
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="recyclerViewStartTitle" parent="upperBarTitels">
+        <item name="android:gravity">start</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="recyclerViewEndTitle" parent="upperBarTitels">
+        <item name="android:gravity">end</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style name="recyclerView">
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="movieDescriptionBar" parent="onBackGround">
+        <item name="android:textColor">#a4a4a4 </item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="mainShowTitle" parent="onSurface">
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="subShowTitle" parent="onSurface">
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="ImageRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_full</item>
+        <item name="android:minHeight">30dp</item>
+        <item name="android:maxHeight">30dp</item>
+    </style>
+
+    <style name="myTextInputLabel" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <!-- Customize your theme here. -->
+        <item name="android:textColorHint">@android:color/tertiary_text_dark</item>
+        <item name="android:textSize">14dp</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@android:color/tertiary_text_dark</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+</resources>

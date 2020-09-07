@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/backGround"
+    tools:context=".ActorWorks">
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_progress_bar_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_results_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <GridView
+        android:layout_marginTop="15dp"
+        android:scrollbars="none"
+        android:columnWidth="125dp"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:id="@+id/id_actor_works"
+        android:numColumns="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/id_no_results_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <TextView
+          android:text="@string/no_results"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

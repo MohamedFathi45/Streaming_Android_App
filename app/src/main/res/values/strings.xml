@@ -1,0 +1,78 @@
+<resources>
+    <string name="Bangton_tv">BangTan Tv</string>
+    <string name="dvd">DVD</string>
+    <string name="shows">Shows</string>
+    <string name="app_name">Army_App</string>
+    <string name="tv_shows">TV Shows</string>
+    <string name="movies"> Movies</string>
+    <string name="my_list">My List</string>
+    <string name="icon_home">Home</string>
+    <string name="icon_search">Search</string>
+    <string name="icon_our_works">Our Works</string>
+    <string name="icon_more">More</string>
+    <string name="my_list_text">My List</string>
+    <string name="info_text">Info</string>
+    <string name="popular">Popular</string>
+    <string name="more">More</string>
+    <string name="v_live">VLive</string>
+    <string name="others">Others</string>
+    <string name="reality">Reality</string>
+    <string name="documentary">Documentary</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="details">Details</string>
+    <string name="episodes">Episodes</string>
+    <string name="movie">Movie</string>
+    <string name="description">Description</string>
+    <string name="watch">Watch</string>
+    <string name="tags" translatable="false">Tags</string>
+    <string name="main_actors_role">Main Actors</string>
+    <string name="helper_actors" translatable="false">Helper Actors</string>
+    <string name="series">Series</string>
+    <string name="members">Members</string>
+    <string name="categories">Categories</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="purple_army" translatable="false">Purple ARMYs</string>
+    <string name="no_results">No Results</string>
+    <string name="our_works">Our Works</string>
+    <string name="actors">Members</string>
+    <string name="tv_show">TV Show</string>
+    <string name="bangTan_tv">bangTan TV</string>
+    <string name="show">Show</string>
+    <string name="sign_in_statement">Sign In</string>
+    <string name="sign_in_using">Sign in using</string>
+    <string name="sing_in">Sign In</string>
+    <string name="sing_in_failed">Sign In failed</string>
+    <string name="my_history">My History</string>
+    <string name="must_sign_in">you must sign in first</string>
+    <string name="server_problem">There might be problem in server</string>
+    <string name="removed_from_list">show removed from your list</string>
+    <string name="added_to_list">Show added to your list</string>
+    <string name="tell_your_friends">Tell your friends about our app</string>
+    <string name="shareLinkStatment">share this link to others so they can download it</string>
+    <string name="copy_link">Copy Link</string>
+    <string name="shareLinkStatement">Share this link to your friends so they can download the Application</string>
+    <string name="our_accounts">Our Accounts</string>
+    <string name="copied">Link copied</string>
+    <string name="sign_in">Sign In</string>
+    <string name="update_the_app_statment">New version s now available do you want to download it</string>
+    <string name="update">Update</string>
+    <string name="ok">Ok</string>
+    <string name="exit">Exit</string>
+    <string name="comments">Comments</string>
+    <string name="reviews">Reviews</string>
+    <string name="write_comment">Write comment here</string>
+    <string name="comment_size_problem">size is not valid. either size is 0 or its is more than 100 characters</string>
+    <string name="cannot_insert_more_reviews">You cannot insert more reviews</string>
+    <string name="episode">Episode</string>
+    <string name="watching_servers">Servers For Watching</string>
+    <string name="low_quality">Low Quality</string>
+    <string name="medium_quality">Medium Quality</string>
+    <string name="high_quality">High Quality</string>
+    <string name="multiple_quality">Multiple</string>
+    <string name="available_qualities">Available Qualities</string>
+    <string name="cannot_insert_more_comments">You cannot insert more comments</string>
+    <string name="session">Session</string>
+    <string name="servers">Servers</string>
+</resources>

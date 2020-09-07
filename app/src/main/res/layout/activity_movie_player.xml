@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoviePlayerActivity"
+    android:background="@color/player_bg">
+    
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/id_video_file_exo_player"
+        android:background="@color/video_player_bg"
+        app:shutter_background_color="@color/shutter_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.google.android.exoplayer2.ui.PlayerView>
+
+</LinearLayout>
